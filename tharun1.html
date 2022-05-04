@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css">
+<style>
+.navbar {
+  overflow: hidden;
+  background-color: yellowgreen;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.dropdown {
+  float: right;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: black;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+
+
+.navbar a {
+  float: right;
+  font-size: 16px;
+  color: black;
+  text-align: center;
+  padding: 16px 14px;
+  text-decoration: none;
+}
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: blueviolet;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: skyblue;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <a href="#news">Home</a>
+  <a href="#Home">News</a>
+  <div class="dropdown">
+    <button class="dropbtn">More 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#">contacts</a>
+      <a href="#">help</a>
+      <a href="#">location</a>
+    </div>
+  </div> 
+</div>
+
+<h3 style="background-color: aqua;">This is Tharun</h3>
+<img src="C:\Users\ADMIN\Downloads\tharunimage.jpg" width = "300" height = 400;>
+<h4 style="font-family: 'Times New Roman', Times, serif;">Hi this is Tharun.This is the image of my brothers birthday.He is my younger brother.He is studying 10th class in ssb school ,gudur. </h4>
+
+</body>
+</html>
