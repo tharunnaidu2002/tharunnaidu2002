@@ -1,0 +1,34 @@
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #0cdf64;
+}
+  .container{
+    width:100%;
+    height: 50px;
+    background-color:rgb(235, 19, 199);
+   
+}
+h1{
+    text-align:center;
+}
+.GroBtn{
+    margin-left: 200px;
+}
+.containerBtn{
+    margin-left: 60px;
+}
+table{
+    background-color: rgb(27, 95, 6);
+    
+}
