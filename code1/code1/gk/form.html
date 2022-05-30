@@ -1,0 +1,35 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title> College Register Form</title>
+</head>
+<body>
+ <form action="insert.php" method="POST">
+  <table>
+   <tr>
+    <td>Name :</td>
+    <td><input type="text" name="Name" required></td>
+   </tr>
+   <tr>
+    <td>Password :</td>
+    <td><input type="Password" name="Password" required></td>
+   </tr>
+   <tr>
+    <td>Gender :</td>
+    <td>
+     <input type="radio" name="Gender" value="m" required>Male
+     <input type="radio" name="Gender" value="f" required>Female
+     <input type="radio" name="Gender" value="o" required>others
+    </td>
+   </tr>
+   <tr>
+    <td>Email :</td>
+    <td><input type="Email" name="Email" required></td>
+   </tr> 
+   <tr>
+    <td><input type="submit" value="Submit" name="submit"></td>
+   </tr>
+  </table>
+ </form>
+</body>
+</html>
